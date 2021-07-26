@@ -2,161 +2,173 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase 4 - Design and Construction III - Copia de Aprendizaje 1</title>
-    <!-- <link rel="stylesheet" href="css/Estilos.css" -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase 4 - Design and Construction III - Copia de Aprendizaje 1</title>
+  <!-- <link rel="stylesheet" href="css/Estilos.css" -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <!-- Seccion del Encabezado -->
+  <!-- Seccion del Encabezado -->
 
-    <header>
-        <img src="img/GridvsFlexbox.jpg" alt="Logo" height="100" width="200">
-        <h1>Objetos Virtuales de aprendizaje "Flex Box, CSS Grid"</h1>
-        <img src="img/logo2.png" alt="Logo" height="100" width="200">
+  <header>
+    <img src="img/GridvsFlexbox.jpg" alt="Logo" height="100" width="200">
+    <h1>Objetos Virtuales de aprendizaje "Flex Box, CSS Grid"</h1>
+    <img src="img/logo2.png" alt="Logo" height="100" width="200">
 
-    </header>
+  </header>
 
-    <!-- Barra de Menu horizontal -->
-    <!-- utilizar Bootstrap -->
+  <!-- Barra de Menu horizontal -->
+  <!-- utilizar Bootstrap -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Temas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="CSSGrid.html">CSSGrid</a></li>
+              <li><a class="dropdown-item" href="FlexBox.html">FlexBox</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-            
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Temas
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="CSSGrid.html">CSSGrid</a></li>
-                  <li><a class="dropdown-item" href="FlexBox.html">FlexBox</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
               </li> -->
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Recursos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="Recurso1.html">Recurso 1</a></li>
-                  <li><a class="dropdown-item" href="Recurso2.html">Recurso 2</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                </ul>
-              </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Aprendizaje
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="aprendizaje1.html">Aprendizaje 1</a></li>
-                  <li><a class="dropdown-item" href="aprendizaje2.html">Aprendizaje 2</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Recursos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="Recurso1.html">Recurso 1</a></li>
+              <li><a class="dropdown-item" href="Recurso2.html">Recurso 2</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Autor.html">Autor</a>
-              </li>
-            
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
             </ul>
-            <!-- <form class="d-flex">
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Aprendizaje
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="aprendizaje1.html">Aprendizaje 1</a></li>
+              <li><a class="dropdown-item" href="aprendizaje2.html">Aprendizaje 2</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Autor.html">Autor</a>
+          </li>
+
+        </ul>
+        <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-          </div>
-        </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 
-    <div class="contenedor">
-        <div class="row">
-            <aside class="col-4">
+  <div class="contenedor">
+    <div class="row">
+      <aside class="col-4">
 
-                <h4>Fan Page</h4>
-                <iframe
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMunicipio-de-Duitama-125319574899396%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                <iframe width="428" height="242" src="https://www.youtube.com/embed/382Zu1DxY5s"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <iframe
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </aside>
+        <h4>Fan Page</h4>
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMunicipio-de-Duitama-125319574899396%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe width="428" height="242" src="https://www.youtube.com/embed/382Zu1DxY5s" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </aside>
 
-            <!-- Seccion central -->
+      <!-- Seccion central -->
 
-            <section class="col-8">
-                <!-- contenido de aprendizaje -->
-                <h3>Repaso de conocimientos FlexBox y CSS Grid</h3>
-                <p>
-                    Recordemos que:
-                </p>
+      <section class="col-8">
+        <!-- contenido de aprendizaje -->
+        <h3>Repasemos acerca de FlexBox y CSS Grid</h3>
+        <p>
+          Veamos unos apuntes que:
+        </p>
 
-                <p>
-                    Al hablar del Flex Box debe indicarse que es un módulo de diseño de CSS3, que básicamente altera el
-                    ancho, alto y posicionamiento de elementos de la mejor manera con el espacio del que disponemos.
-                </p>
+        <p>
+          De acuerdo con Castro González J. este es un modelo de diseño CSS3, en este los elementos se adaptan a un
+          contenedor para ser organizados de forma automática, esto de acuerdo con el tamaño de la pantalla o
+          dispositivo en el que se ejecute. Allí existe un elemento padre que sostiene a los demás flex por medio de dos
+          ejes “Flex Container”, los elementos hijos se conocen como “Flex Ítem” (Castro González, 2020)(p. 17)
+        </p>
 
-                <p>
-                    Para el caso del CSS Grid se trata de una herramienta de diseño que consiste un modelo de
-                    maquetación,
-                    que controla las dimensiones, con una ubicación libre en base a una rejilla.
-                </p>
+        <p>
+          Villanueva I. indica que hablar de CSS Grid es hacerlo de un módulo de diseño, un sistema que divide la página
+          en una cuadrícula o rejilla (grid) el cual usa tanto filas como columnas a la vez. En donde las líneas están
+          numeradas, por tanto, en las rejillas hay elementos con espacios (gaps) entre ellos, además de esto debe
+          indicarse que casi cualquier navegador puede interpretar este código (Villanueva, 2017).
+        </p>
 
-                <p>
-                    <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSf6lpZgkXZzJs3MPSgClht1vomxZIAzW673I2mc-lRg2MrbPQ/viewform?usp=sf_link"
-                        frameborder="0"
-                        width="900" height="1600" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowfullscreen="true"
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                </p>
+        <p>
+          <iframe
+            src="<div class='goconqr-popup-embed' data-id='32368995' data-type='quizzes'></div><script type='text/javascript' src='https://cdn.goconqr.com/embed.min.js'></script>"
+            frameborder="0" width="900" height="1600" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </p>
 
 
-            </section>
-
-        </div>
+      </section>
 
     </div>
 
-    <footer>
-        <p>
-            Duitama 2021.
-            Correo - saintmil@hotmail.com <br>
-            Skype - saintmil@hotmail.com <br>
-            Fecha de actualización - 26 de julio de 2021
-            Todos los Derechos Reservados
-        </p>
-    </footer>
+  </div>
+
+  <footer>
+    <p>
+      Duitama 2021.
+      Correo - saintmil@hotmail.com <br>
+      Skype - saintmil@hotmail.com <br>
+      Fecha de actualización - 26 de julio de 2021
+      Todos los Derechos Reservados
+    </p>
+  </footer>
 
 </body>
